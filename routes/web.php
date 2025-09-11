@@ -177,8 +177,12 @@ Route::middleware(['auth'])->group(function () {
 /*------------------------------------------
 | Routes API (protégées)
 |------------------------------------------*/
+/*------------------------------------------
+| Routes API (protégées)
+|------------------------------------------*/
 Route::prefix('api')->middleware('auth')->group(function () {
-    Route::get('/salles-disponibles', [SalleController::class, 'apiDisponibilite']);
+    // Changez SalleController pour EmploiController
+    Route::get('/salles-disponibles', [EmploiController::class, 'apiDisponibilite']);
 
     Route::get('/notifications/count', function(Request $request) {
         if (!Auth::check()) {
@@ -188,4 +192,3 @@ Route::prefix('api')->middleware('auth')->group(function () {
         return response()->json(['count' => $count]);
     })->name('api.notifications.count');
 });
-

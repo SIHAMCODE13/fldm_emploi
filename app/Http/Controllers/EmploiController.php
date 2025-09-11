@@ -12,6 +12,7 @@ use App\Models\Semistre;
 use App\Models\User;
 use App\Exports\SeancesExport;
 use Maatwebsite\Excel\Facades\Excel;
+use Illuminate\Support\Facades\Auth; // ← AJOUTEZ CETTE LIGNE
 
 class EmploiController extends Controller
 {

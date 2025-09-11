@@ -113,14 +113,14 @@ class SalleController extends Controller
             ->with('success', 'Salle supprimée avec succès');
     }
 
-    public function apiDisponibilite()
-{
-    $salles = Salle::where('disponibilite', true)
-        ->select('id_salle', 'nom_salle', 'capacite', 'disponibilite')
-        ->get();
+//     public function apiDisponibilite()
+// {
+//     $salles = Salle::where('disponibilite', true)
+//         ->select('id_salle', 'nom_salle', 'capacite', 'disponibilite')
+//         ->get();
 
-    return response()->json([
-        'data' => $salles
-    ]);
-}
+//     return response()->json([
+//         'data' => $salles
+//     ]);
+// }
 }
