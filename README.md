@@ -177,9 +177,7 @@ Les tests permettent de vérifier le comportement de l'application, les règles 
 - GitHub : [SIHAMCODE13](https://github.com/SIHAMCODE13)
 - Dépôt du projet : [fldm_emploi](https://github.com/SIHAMCODE13/fldm_emploi)
 
-## 📄 Licence
 
-Le projet peut être distribué sous licence MIT si le dépôt contient effectivement une licence MIT. Vérifie la présence du fichier `LICENSE` avant de conserver cette mention.
 
 ---
 
