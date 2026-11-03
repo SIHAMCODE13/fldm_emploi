@@ -19,7 +19,6 @@
 - 📊 Export des données au format Excel.
 - 🔐 Authentification et gestion des rôles utilisateurs.
 
-*Remarque : les fonctionnalités listées sont celles prévues dans la description du projet et doivent être vérifiées par rapport à l'implémentation actuelle.*
 
 ## 🏗️ Architecture du projet
 
